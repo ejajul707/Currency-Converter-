@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.droupdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.select-container {
+    margin: 0 20px;
+}
+
+select {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.material-symbols-outlined {
+    font-size: 30px !important ;
+    color: black !important;
+}
+
+.from img,
+.to img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.msg {
+    min-height: 21px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+button {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;
+    color: #666;
+}
